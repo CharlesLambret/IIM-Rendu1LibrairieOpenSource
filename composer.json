@@ -1,0 +1,21 @@
+{
+    "name": "charleslambret/witchercharacterscrapping",
+    "description": "mini librairie scrappant les personnages de the witcher et leur description",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Charleslambret\\Witchercharacterscrapping\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Charles",
+            "email": "charleslambretpro@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
